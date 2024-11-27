@@ -40,9 +40,9 @@ const copyLink = () => {
           <div>
             <a
               class="text-[14px]"
-              href="https://twitter.com/tihunov"
+              href="https://www.instagram.com/aayush.png/"
               target="_blank"
-              >@tihunov</a
+              >@aayush</a
             >
           </div>
         </div>
@@ -50,14 +50,14 @@ const copyLink = () => {
 
       <div class="mr-4">
         <div class="text-[11px] mb-1 text-[#6f6f6f] dark:text-[#9ba1a6]">
-          Published on
+          Published On
         </div>
         <span class="text-[14px]">{{ props.publishDate }}</span>
       </div>
 
       <div class="mr-4">
         <div class="text-[11px] mb-1 text-[#6f6f6f] dark:text-[#9ba1a6]">
-          Reading time
+          Reading Time
         </div>
         <span class="text-[14px]">{{ props.readingTime }}</span>
       </div>
