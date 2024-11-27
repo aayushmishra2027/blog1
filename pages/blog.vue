@@ -85,16 +85,16 @@ watch(meta_k, (v) => {
 });
 
 useHead({
-  title: "Blog - Dmytro Tihunov",
+  title: "BloggerZ",
   meta: [
     {
       name: "description",
       content:
-        "been writing online since 2022, mostly about web development and tech careers. In total, written 51 articles on my blog. Use the search below to filter by title.",
+        "This Section serves as a Creative Space for young Writers to share their Thoughts, Stories, and Ideas. Here, creativity thrives, and each blog has the potential to spark meaningful conversations and connect like-minded individuals.",
     },
     {
       name: "og:image",
-      content: "https://tihunov.com/img/open-graph-preview.png",
+      content: "https://bloggerzinc.vercel.app//img/open-graph-preview.png",
     },
     {
       name: "og:image:width",
@@ -116,9 +116,7 @@ useHead({
       Latest posts
     </h1>
     <p class="mb-5 font-recoleta">
-      I've been writing online since 2023, about web development, new
-      technologies, <br />useful tools and improving. I hope some of the
-      articles you will find useful for you :)
+    This Section serves as a Creative Space for young Writers to share their Thoughts, Stories, and Ideas. <br />Here, creativity thrives, and each Blog has the Potential to spark Meaningful Conversations and Connect like-minded Individuals.
     </p>
 
     <div class="flex items-center relative justify-between gap-4">
@@ -127,7 +125,7 @@ useHead({
         <input
           ref="searchTypeRef"
           type="text"
-          placeholder="Search article (⌘ + K)"
+          placeholder="Search Article (⌘ + K)"
           v-model="searchType"
           class="input-search"
         />
@@ -171,6 +169,6 @@ useHead({
   </div>
 
   <div class="text-center mb-5" v-if="postsList.length <= 0 && !isPostsLoading">
-    🤷🏼‍♂️ No articles found.
+    🤷🏼‍♂️ No Articles Found.
   </div>
 </template>
