@@ -8,7 +8,7 @@ const currentYear = new Date();
       class="max-w-4xl border-t lg:px-0 px-4 flex justify-between items-center text-[14px] pb-5 pt-5 dark:border-[#34343a] border-[#c7c7c7] mx-auto"
     >
       <p class="flex-inline items-center">
-        © {{ currentYear.getFullYear() }} - Built by Aayush Mishra
+        © {{ currentYear.getFullYear() }} Aayush Mishra
         <br class="sm:hidden" />Built with
         <a href="https://nuxt.com" target="_blank">
           <svg
