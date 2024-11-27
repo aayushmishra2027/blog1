@@ -18,7 +18,7 @@ export default defineEventHandler(async (event) => {
   }
 
   const response = await octokit.request("GET /users/{username}/repos", {
-    username: "Dmytro-Tihunov", // Your github username
+    username: "aayushmishra2027", // Your github username
   });
 
   if (!response) {
