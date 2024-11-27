@@ -41,10 +41,10 @@ const schema = Yup.object().shape({
     >
       <div class="grid grid-cols-2 gap-4">
         <div class="flex flex-col">
-          <InputVal name="name" type="text" label="Your name" />
+          <InputVal name="name" type="text" label="Your Name" />
         </div>
         <div class="flex flex-col">
-          <InputVal name="email" type="email" label="Your email" />
+          <InputVal name="email" type="email" label="Your E-mail" />
         </div>
       </div>
       <div class="mb-4 mt-2 w-full">
@@ -65,7 +65,7 @@ const schema = Yup.object().shape({
         </div>
         <div class="top-[5px] relative">Send</div>
       </button>
-      <div class="mt-5" v-else>Thanks! 🎉</div>
+      <div class="mt-5" v-else>Thanks! Our Team will Soon Reach Out to You.</div>
     </Form>
   </div>
 </template>
