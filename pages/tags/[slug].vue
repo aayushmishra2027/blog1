@@ -11,7 +11,7 @@ const query: QueryBuilderParams = {
 };
 
 useHead({
-  title: slug + " - Dmytro Tihunov",
+  title: slug + " - Aayush Mishra",
 });
 </script>
 
@@ -34,7 +34,7 @@ useHead({
       </div>
     </template>
     <template #not-found>
-      <p class="text-center mb-5">🤷🏼‍♂️ No articles found.</p>
+      <p class="text-center mb-5">🤷🏼‍♂️ No Articles Found.</p>
     </template>
   </ContentList>
 </template>
