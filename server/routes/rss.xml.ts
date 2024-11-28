@@ -4,9 +4,9 @@ import RSS from "rss";
 
 export default defineEventHandler(async (event) => {
   const feed = new RSS({
-    Title: "Aayush Mishra",
-    site_url: "https://bloggerzinc.vercel.app/",
-    feed_url: `https://bloggerzinc.vercel.app//rss.xml`,
+    Title: "Dmytro Tihunov",
+    site_url: "https://tihunov.com",
+    feed_url: `https://tihunov.com/rss.xml`,
   });
 
   const docs = await serverQueryContent(event)
@@ -18,7 +18,7 @@ export default defineEventHandler(async (event) => {
   for (const doc of blogPosts) {
     feed.item({
       title: doc.title ?? "-",
-      url: `https://bloggerzinc.vercel.app/${doc._path}`,
+      url: `https://tihunov.com${doc._path}`,
       date: doc.date,
       description: doc.description,
     });
