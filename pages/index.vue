@@ -23,7 +23,7 @@ useHead({
     },
     {
       property: "og:url",
-      content: "https://bloggerzinc.vercel.app/",
+      content: "https://tihunov.com",
     },
     {
       property: "og:type",
@@ -31,7 +31,7 @@ useHead({
     },
     {
       property: "og:image",
-      content: "https://bloggerzinc.vercel.app//img/open-graph-preview.png",
+      content: "https://tihunov.com/img/open-graph-preview.png",
     },
     {
       property: "og:image:alt",
@@ -55,7 +55,7 @@ useHead({
     },
     {
       name: "twitter:image",
-      content: "https://bloggerzinc.vercel.app//img/open-graph-preview.png",
+      content: "https://tihunov.com/img/open-graph-preview.png",
     },
     {
       name: "twitter:image:alt",
