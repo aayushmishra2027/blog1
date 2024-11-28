@@ -4,7 +4,7 @@ import RSS from "rss";
 
 export default defineEventHandler(async (event) => {
   const feed = new RSS({
-    Title: "Aayush Mishra",
+    Title: "Dmytro Tihunov",
     site_url: "https://tihunov.com",
     feed_url: `https://tihunov.com/rss.xml`,
   });
