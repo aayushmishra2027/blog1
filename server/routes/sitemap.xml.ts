@@ -6,7 +6,7 @@ import fs from "fs";
 
 export default defineEventHandler(async (event) => {
   const sitemap = new SitemapStream({
-    hostname: "https://bloggerzinc.vercel.app/",
+    hostname: "https://tihunov.com",
   });
 
   const docs = await serverQueryContent(event).find();
