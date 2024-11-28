@@ -94,7 +94,7 @@ useHead({
     },
     {
       name: "og:image",
-      content: "https://bloggerzinc.vercel.app//img/open-graph-preview.png",
+      content: "https://tihunov.com/img/open-graph-preview.png",
     },
     {
       name: "og:image:width",
